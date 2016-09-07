@@ -1,0 +1,49 @@
+{
+  "name": "stagecoach",
+  "version": "1.0.0",
+  "description": "Stagecoach Cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "stagecoach": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwatts3/stagecoach.git"
+  },
+  "keywords": [
+    "git",
+    "cli"
+  ],
+  "author": "Ryan Watts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwatts3/stagecoach/issues"
+  },
+  "homepage": "https://github.com/rwatts3/stagecoach#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "cli": "^0.11.1",
+    "clui": "^0.3.1",
+    "colors": "^1.1.2",
+    "figlet": "^1.1.2",
+    "github": "^3.0.0",
+    "inquirer": "^1.1.3",
+    "lodash": "^4.15.0",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1",
+    "progress": "^1.1.8",
+    "prompt": "^0.2.14",
+    "scp": "0.0.3",
+    "shelljs": "^0.5.3",
+    "simple-git": "^1.48.0",
+    "touch": "^1.0.0"
+  }
+}
